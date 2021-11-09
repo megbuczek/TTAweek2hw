@@ -1,0 +1,99 @@
+html {
+    background-color: #F0F0F0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: 'Atlane', sans-serif;
+}
+
+.des {
+    font-family: 'voluta-script-pro', sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    margin-top: 6px;
+}
+
+header {
+    height: 100px;
+}
+
+nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: inline;
+}
+
+nav li {
+    position: relative;
+    display: inline-block;
+    color: black;
+    font-size: 30px;
+    padding: 0 1rem;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.main-nav {
+    display: flex;
+    background-color: #E6FFA1;
+    height: 100px;
+}
+
+.push {
+    margin-left: auto;
+}
+
+footer {
+    height: 180px;
+    text-align: center;
+    background-color: #E6FFA1;
+    margin-top: 20px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.message {
+    padding: 67px 0;
+    background-color: #b3b3cc;
+    color: #ffffff;
+}
+
+.message h2 {
+    margin-bottom: 38px;
+    font-size: 26px;
+    line-height: 1.62;
+    text-align: center;
+}
+
+.message p {
+    font-size: 15px;
+    line-height: 1.73;
+    max-width: 640px;
+    margin: auto;
+}
+
+@media (min-width: 900px) {
+    .message {
+        padding: 81px 0;
+    }
+    .message h2 {
+        font-size: 36px;
+        line-height: 1.33;
+    }
+}

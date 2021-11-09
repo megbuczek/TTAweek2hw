@@ -1,0 +1,194 @@
+     html {
+         background-color: #F0F0F0;
+         font-family: 'Roboto', sans-serif;
+         font-weight: 100;
+         line-height: 1.5;
+     }
+     
+     h1 {
+         font-family: 'Atlane', sans-serif;
+     }
+     
+     .des {
+         font-family: 'voluta-script-pro', sans-serif;
+         font-style: normal;
+         font-size: 36px;
+         margin-top: 6px;
+     }
+     
+     header {
+         height: 100px;
+     }
+     
+     nav {
+         padding-left: 0;
+         margin-bottom: 0;
+         list-style: none;
+         display: inline;
+     }
+     
+     nav li {
+         position: relative;
+         display: inline-block;
+         color: black;
+         font-size: 30px;
+         padding: 0 1rem;
+         list-style-type: none;
+         font-weight: bold;
+     }
+     
+     nav li a {
+         text-decoration: none;
+         color: black;
+         font-size: 18px;
+     }
+     
+     .main-nav {
+         display: flex;
+         background-color: #E6FFA1;
+         height: 100px;
+     }
+     
+     .push {
+         margin-left: auto;
+     }
+     
+     footer {
+         height: 180px;
+         text-align: center;
+         background-color: #E6FFA1;
+     }
+     
+     .fa {
+         padding: 20px;
+         font-size: 50px;
+         width: 50px;
+         text-decoration: none;
+         color: black;
+     }
+     
+     img {
+         height: 1000px;
+         width: 1850px;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         margin-bottom: 20px;
+     }
+     
+     .contact {
+         padding: 62px 0;
+         background-color: #EEF4F8;
+     }
+     
+     .contact h2 {
+         margin-bottom: 42px;
+         font-size: 26px;
+     }
+     
+     .contact h2+p {
+         font-size: 13px;
+         line-height: 2;
+         font-family: 'Roboto', sans-serif;
+     }
+     
+     @media (min-width: 900px) {
+         .contact h2 {
+             font-size: 36px;
+         }
+         .contact h2+p {
+             font-size: 15px;
+             line-height: 1.73;
+         }
+     }
+     
+     .container {
+         width: 84%;
+         margin: 0 auto;
+     }
+     
+     @media (min-width: 900px) {
+         .container {
+             width: 91%;
+             max-width: 1240px;
+         }
+     }
+     
+     @media (min-width: 900px) {
+         .contact {
+             padding: 0;
+             background: none;
+         }
+     }
+     
+     .contact .container {
+         display: flex;
+         justify-content: space-between;
+         padding: 96px 9% 62px;
+         box-sizing: border-box;
+         background-color: #EEF4F8;
+     }
+     
+     .contact .text {
+         flex: 0 0 auto;
+     }
+     
+     .contact .form {
+         flex: 1 1 auto;
+         max-width: 457px;
+         margin-left: 1em;
+         margin-top: 0;
+     }
+     
+     .form {
+         margin-top: 46px;
+     }
+     
+     .form input[type="text"],
+     .form input[type="email"],
+     .form textarea {
+         width: 100%;
+         margin-bottom: 17px;
+         padding: 14px 20px 15px;
+         border: solid 1px #CDD6DD;
+         box-sizing: border-box;
+         border-radius: 14px;
+         -webkit-appearance: none;
+         font-size: 16px;
+         font-family: 'Roboto', sans-serif;
+     }
+     
+     .form textarea {
+         height: 150px;
+     }
+     
+     .btn {
+         display: block;
+         width: 208px;
+         margin: 0 auto;
+         padding: 11px 11px 13px;
+         box-sizing: border-box;
+         border: solid 2px currentColor;
+         border-radius: 24px;
+         color: #b3b3cc;
+         font-size: 16px;
+         font-weight: bold;
+         text-align: center;
+     }
+     
+     .form .btn {
+         width: 100%;
+         margin: 0;
+         border: none;
+         background-color: #b3b3cc;
+         cursor: pointer;
+         -webkit-appearance: none;
+         font-family: 'Roboto', sans-serif;
+         color: #ffffff;
+     }
+     
+     @media (min-width: 900px) {
+         .form .btn {
+             width: 272px;
+         }
+     }
