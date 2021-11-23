@@ -146,6 +146,7 @@
      
      .form input[type="text"],
      .form input[type="email"],
+     .form #selCountry,
      .form textarea {
          width: 100%;
          margin-bottom: 17px;
@@ -191,4 +192,13 @@
          .form .btn {
              width: 272px;
          }
+     }
+     
+     .form #error_message {
+         margin-bottom: 20px;
+         padding: 0px;
+         background: #fe8b8e;
+         font-size: 14px;
+         border-radius: 10px;
+         transition: all 0.5s ease;
      }
